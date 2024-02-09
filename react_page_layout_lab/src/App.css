@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+  display: flex;
+  border: solid .5rem black;
+}
+
+.homepage {
+  border: solid orange;
+  flex: 1;
+}
+
+.employeePage {
+  border: solid brown;
+  flex: 1;
+}
+
+.header {
+  border: solid steelblue;
+  padding: 10px;
+}
+
+.searchBar {
+  border: solid green;
+  padding: 10px;
+}
+
+.employeeList {
+  border: solid blueviolet;
+}
+
+.employeeListItem {
+  border: solid red;
+  display: contents;
+  flex-direction: column;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 0;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
